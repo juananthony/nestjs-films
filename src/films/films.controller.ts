@@ -1,4 +1,5 @@
 import { Controller, Get, Req } from '@nestjs/common';
+import { Request } from 'express';
 import { FilmsDTO } from './films.interface';
 
 @Controller('films')
